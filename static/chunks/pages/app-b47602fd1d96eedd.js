@@ -1,1 +1,83 @@
-(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[888],{6363:function(n,e,t){(window.__NEXT_P=window.__NEXT_P||[]).push(["/_app",function(){return t(3847)}])},3847:function(n,e,t){"use strict";t.r(e);var r=t(5893),o=(t(7759),t(9008));function i(n,e,t){return e in n?Object.defineProperty(n,e,{value:t,enumerable:!0,configurable:!0,writable:!0}):n[e]=t,n}function u(n){for(var e=1;e<arguments.length;e++){var t=null!=arguments[e]?arguments[e]:{},r=Object.keys(t);"function"===typeof Object.getOwnPropertySymbols&&(r=r.concat(Object.getOwnPropertySymbols(t).filter((function(n){return Object.getOwnPropertyDescriptor(t,n).enumerable})))),r.forEach((function(e){i(n,e,t[e])}))}return n}e.default=function(n){var e=n.Component,t=n.pageProps;return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsxs)(o.default,{children:[(0,r.jsx)("meta",{name:"viewport",content:"width=device-width, initial-scale=1"}),(0,r.jsx)("title",{children:"SuWorld \u2014 IT-\u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0430 \u0434\u043b\u044f \u043f\u0440\u043e\u0434\u0430\u0436\u0438 \u0442\u043e\u0432\u0430\u0440\u043e\u0432 \u0438 \u0443\u0441\u043b\u0443\u0433"})]}),(0,r.jsx)(e,u({},t))]})}},7759:function(){},9008:function(n,e,t){n.exports=t(3121)}},function(n){var e=function(e){return n(n.s=e)};n.O(0,[774,179],(function(){return e(6363),e(880)}));var t=n.O();_N_E=t}]);
+(self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
+  [888],
+  {
+    6363: function (n, e, t) {
+      (window.__NEXT_P = window.__NEXT_P || []).push([
+        "/_app",
+        function () {
+          return t(3847);
+        },
+      ]);
+    },
+    3847: function (n, e, t) {
+      "use strict";
+      t.r(e);
+      var r = t(5893),
+        o = (t(7759), t(9008));
+      function i(n, e, t) {
+        return (
+          e in n
+            ? Object.defineProperty(n, e, {
+                value: t,
+                enumerable: !0,
+                configurable: !0,
+                writable: !0,
+              })
+            : (n[e] = t),
+          n
+        );
+      }
+      function u(n) {
+        for (var e = 1; e < arguments.length; e++) {
+          var t = null != arguments[e] ? arguments[e] : {},
+            r = Object.keys(t);
+          "function" === typeof Object.getOwnPropertySymbols &&
+            (r = r.concat(
+              Object.getOwnPropertySymbols(t).filter(function (n) {
+                return Object.getOwnPropertyDescriptor(t, n).enumerable;
+              })
+            )),
+            r.forEach(function (e) {
+              i(n, e, t[e]);
+            });
+        }
+        return n;
+      }
+      e.default = function (n) {
+        var e = n.Component,
+          t = n.pageProps;
+        return (0, r.jsxs)(r.Fragment, {
+          children: [
+            (0, r.jsxs)(o.default, {
+              children: [
+                (0, r.jsx)("meta", {
+                  name: "viewport",
+                  content: "width=device-width, initial-scale=1",
+                }),
+                (0, r.jsx)("title", {
+                  children:
+                    "SuWorld \u2014 IT-\u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0430 \u0434\u043b\u044f \u043f\u0440\u043e\u0434\u0430\u0436\u0438 \u0442\u043e\u0432\u0430\u0440\u043e\u0432 \u0438 \u0443\u0441\u043b\u0443\u0433",
+                }),
+              ],
+            }),
+            (0, r.jsx)(e, u({}, t)),
+          ],
+        });
+      };
+    },
+    7759: function () {},
+    9008: function (n, e, t) {
+      n.exports = t(3121);
+    },
+  },
+  function (n) {
+    var e = function (e) {
+      return n((n.s = e));
+    };
+    n.O(0, [774, 179], function () {
+      return e(6363), e(880);
+    });
+    var t = n.O();
+    _N_E = t;
+  },
+]);
